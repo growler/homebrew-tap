@@ -4,9 +4,11 @@ Homebrew formulas for tools by growler.
 
 ## docbake
 
-Install docbake:
+Homebrew loads formulas only from trusted taps. Trust the tap, then install
+docbake:
 
 ```
+brew trust growler/tap
 brew install growler/tap/docbake
 ```
 
