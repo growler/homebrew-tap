@@ -10,19 +10,19 @@ class Docbake < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/growler/docbake/releases/download/v0.2.1/docbake-darwin-arm64.tar.gz"
-      sha256 "40a59350611041943f35a5dbc3827d457db5e699ecbaa29db6579bff8f194b53"
+      url "https://github.com/growler/docbake/releases/download/v0.2.2/docbake-darwin-arm64.tar.gz"
+      sha256 "ea2887766e10b8ebd9ab42e6e2718a6101e1068add763480fec011b249ea5e1d"
     end
     on_intel do
-      url "https://github.com/growler/docbake/releases/download/v0.2.1/docbake-darwin-amd64.tar.gz"
-      sha256 "2f94decab1097fb1d8479ee1b0837eff395952b782123eabeece17254ce8761e"
+      url "https://github.com/growler/docbake/releases/download/v0.2.2/docbake-darwin-amd64.tar.gz"
+      sha256 "a93956d4411e9c43b9d2a2b6ec0254840cb0d808ae359d33cc1df3090f1af08f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/growler/docbake/releases/download/v0.2.1/docbake-linux-amd64.tar.gz"
-      sha256 "278bd365693d0ad6da89fb9399c03f429e844ef98b8bafb88f6934bb039539b2"
+      url "https://github.com/growler/docbake/releases/download/v0.2.2/docbake-linux-amd64.tar.gz"
+      sha256 "e59c61bf7034933accb675494eb4e9cdb409cf100561b59d6e6a8b5162519498"
     end
   end
 
