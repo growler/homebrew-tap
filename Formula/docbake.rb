@@ -1,7 +1,6 @@
 class Docbake < Formula
   desc "Multi-format Markdown documentation compiler"
   homepage "https://github.com/growler/docbake"
-  version "0.2.1"
   license "MIT"
 
   depends_on "typst" => :recommended
