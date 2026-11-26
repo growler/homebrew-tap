@@ -4,6 +4,11 @@ class Docbake < Formula
   version "0.2.1"
   license "MIT"
 
+  depends_on "typst" => :recommended
+  depends_on "d2" => :optional
+  depends_on "mermaid-cli" => :optional
+  depends_on "plantuml" => :optional
+
   on_macos do
     on_arm do
       url "https://github.com/growler/docbake/releases/download/v0.2.1/docbake-darwin-arm64.tar.gz"
@@ -21,11 +26,6 @@ class Docbake < Formula
       sha256 "278bd365693d0ad6da89fb9399c03f429e844ef98b8bafb88f6934bb039539b2"
     end
   end
-
-  depends_on "typst" => :recommended
-  depends_on "d2" => :optional
-  depends_on "mermaid-cli" => :optional
-  depends_on "plantuml" => :optional
 
   def install
     bin.install "docbake"
